@@ -9,7 +9,7 @@ main
 .menu1
 {
     position: relative;
-    width: 1065px;  
+    width: 1123px;  
     height: 250px;
     float: right;
     background-image: url("../image/flores.png");
@@ -146,7 +146,7 @@ main
     margin-right: 50px;
     height: 40px;
     width: 130px;
-    right: : 500;
+    right: 500;
     color: white;
 }
 #h31:hover
@@ -388,6 +388,7 @@ main
     border-radius: 5px;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 .share:hover
 {
@@ -398,10 +399,113 @@ main
 .welcome
 {
     position: relative;
-    width: 950px;
-    height: 300px;
+    width: 700px;
+    height: 200px;
     right: 750;
     top: 120;
     border: solid 3px yellow;
     cursor: default;
+    color: white;
+    font-size: 22;
+}
+#link364
+{
+    text-decoration: none;
+}
+#link364:hover
+{
+    cursor: pointer;
+    transition: all 0.2s;
+    color: rgb(161, 141, 73);
+    text-decoration: underline;
+}
+.rules
+{
+    position: relative;
+    font-size: 18;
+    width: 700px;
+    height: 30px;
+    border: solid 1px white;
+    bottom: 17;
+}
+.rules a
+{
+    cursor: pointer;
+}
+.categories
+{
+    position: relative;
+    bottom: 15;
+}
+.categories a
+{
+    position: relative;
+    font-size: 18;
+    cursor: pointer;
+    bottom: 2;
+}
+.slider
+{
+    position: relative;
+    width: 700px;
+    height: 330px;
+    border: solid 3px yellow;
+    right: 750;
+    top: 150;
+    overflow: hidden;
+}
+.slider img
+{
+    width: 700px;
+    height: 350px;
+}
+#s1
+{
+    position: relative;
+    left: 0;
+    bottom: 15;
+    float: left;
+}
+#s2
+{
+    position: relative;
+    bottom: 0;
+    left: 700;
+    float: left;
+}
+#s3
+{
+    position: relative;
+    left: 1360;
+    bottom: 715;
+    float: left;
+}
+#s4
+{
+    position: relative;
+    float: left;
+    left: 2060;
+    bottom: 1065;
+}
+.prev
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 730;
+    bottom: 30;
+    border-radius: 90%;
+    background-color: white;
+    text-align: center;
+}
+.next
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 90;
+    bottom: 49;
+    border-radius: 90%;
+    background-color: white;
+    text-align: center;
 }
