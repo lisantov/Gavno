@@ -1,7 +1,7 @@
 main
 {
     width: 80%;
-    height: 1500px;
+    height: 2500px;
     margin-left: 10%;
     margin-top: 170px;
     background-color: #012b2b;
@@ -45,6 +45,7 @@ main
     position: relative;
     left: 275;
     bottom: 100;
+    cursor: default;
 }
 #h3
 {
@@ -380,8 +381,9 @@ main
 .share
 {
     position: relative;
-    left: 75;
-    width: 150px;
+    left: 250;
+    bottom: 123;
+    width: 50px;
     height: 35px;
     background-color: gray;
     border: solid 1px white;
@@ -508,4 +510,272 @@ main
     border-radius: 90%;
     background-color: white;
     text-align: center;
+}
+.mazonriContainer
+{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: solid 3px yellow;
+    right: 750;
+    top: 560;
+    display: inline-grid;
+    cursor: default;
+}
+.maz1
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 25;
+    left: 25;
+    border:solid 3px yellow;
+    background-image: url("../image/opers.png");
+    cursor: pointer;
+}
+.maz2
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 181;
+    left: 248;
+    border:solid 3px yellow;
+    background-image: url("../image/updates.png");
+    cursor: pointer;
+}
+.maz3
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 385;
+    left: 473;
+    border:solid 3px yellow;
+    background-image: url("../image/maps.jpg");
+    cursor: pointer;
+}
+.maz4
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 350;
+    left: 25;
+    border:solid 3px yellow;
+    background-image: url("../image/gamemodes.png");
+    cursor: pointer;
+}
+.maz5
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 555;
+    left: 250;
+    border:solid 3px yellow;
+    background-image: url("../image/gamem.png");
+    cursor: pointer;
+}
+.maz6
+{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 760;
+    left: 480;
+    border:solid 3px yellow;
+    background-image: url("../image/weapons.jpg");
+    cursor: pointer;
+}
+.glogo
+{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    border: solid 3px yellow;
+    background-image: url("../image/r6s.jpg");
+    background-size: cover;
+    right: 750;
+    top: 600;
+    cursor: default;
+}
+.attackers
+{
+    position: relative;
+    width: 348px;
+    height: 200px;
+    border: solid 3px yellow;
+    background-image: url("../image/attackers.jpg");
+    background-size: cover;
+    top: 400;
+    right: 3;
+    cursor: pointer;
+}
+.atack
+{
+    position: relative;
+    width: 350px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+}
+.defenders
+{
+    position: relative;
+    width: 347px;
+    height: 200px;
+    border: solid 3px yellow;
+    background-image: url("../image/defenders.jpg");
+    background-size: cover;
+    top: 194;
+    left: 350;
+    cursor: pointer;
+}
+.def
+{
+    position: relative;
+    width: 350px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+}
+.chat
+{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: solid 3px yellow;
+    left: 800;
+    top: 558;
+    cursor: default;
+}
+.disch
+{
+    position: relative;
+    width: 245px;
+    height: 20px;
+    left: 2.5;
+    background-color: yellow;
+    color: black;
+    cursor: default;
+}
+.discord
+{
+
+    position: relative;
+    width: 250px;
+    height: 80px;
+    top: 30;
+    background-image: url("../image/discord.png");
+    cursor: pointer;
+}
+.requested
+{
+    position: relative;
+    width: 250px;
+    height: 370px;
+    border: solid 3px yellow;
+    left: 800;
+    top: 600;
+}
+.req
+{
+    position: relative;
+    width: 245px;
+    height: 20px;
+    color: black;
+    left: 2;
+    background-color: yellow;
+    cursor: default;
+}
+.new
+{
+    position: relative;
+    color: white;
+    bottom: 60;
+}
+.new ul li
+{
+    padding: 5px;
+}
+.new ul li a
+{
+    text-decoration: none;
+    color: orange;
+}
+.barrier1
+{
+    position: relative;
+    width: 250px;
+    height: 2px;
+    background-color: white;
+}
+.forUpd
+{
+    position: relative;
+    color: white;
+    bottom: 40;
+}
+.forUpd ul li
+{
+    padding: 5px;
+}   
+.forUpd ul li a
+{
+    text-decoration: none;
+    color: orange;
+}
+.friends
+{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: solid 3px yellow;
+    left: 800;
+    top: 650;
+}
+.druz
+{
+    position: relative;
+    width: 245px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    left: 2;
+    text-align: center;
+}
+.splinterc
+{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: 20;
+    background-image: url("../image/splinter.png");
+    cursor: pointer;
+}
+.barrier2
+{
+    position: relative;
+    width: 250px;
+    height: 2px;
+    background-color: white;
+    top: 40;
+}
+.ghostr
+{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background-image: url("../image/ghostr.png");
+    top: 50;
+    cursor: pointer;
+}
+.fandomApp
+{
+    position: relative;
+    width: 200px;
+    left: 1050;
+    bottom: 920;
+    color: white;
 }
